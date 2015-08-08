@@ -32,6 +32,24 @@
 
 
     // code goes here ...
+    $eric = 0;
+    $mark = 0;
+    
+    while($eric < 4 || $mark < 4) {
+        
+        $options = ['rock', 'paper', 'scissors'];
+        
+        // Simulate eric's pick
+        $ericsPick = $options(rand(0, 2));
+        // Simulate marks's pick
+        $marksPick = $options(rand(0, 2));
+        
+        // Conditions to see which is the winner
+        
+    }
+    
+    if($eric >= 4) //eric wins
+    else // mark wins
 
     ?>
 </p>
